@@ -1,19 +1,19 @@
 body {
   margin: 0;
-  padding: 0;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 265px;
   height: 730px;
-  background-color: #1d809f;
+  background-color: #1a6d87;
   display: inline-block;
   position: relative;
 }
 
-ul:hover li a {
+ul:hover {
   display: block;
 }
 
@@ -24,6 +24,10 @@ li a {
   text-decoration: none;
   cursor: pointer;
   margin-top: 20px;
+}
+.active {
+  justify-content: space-between;
+  display: flex;
 }
 
 li a.active {
@@ -46,7 +50,6 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
   opacity: 0.9;
 }
 .header-section {
@@ -54,7 +57,23 @@ header {
   display: flex;
   flex-direction: row-reverse;
   margin-left: 400px;
+  font-size: 20px;
 }
+.header-section-button {
+  color: white;
+  background-color: #342a4080;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  position: relative;
+  margin: 20px 20px;
+}
+.header-image {
+  margin-top: -15px;
+  margin-bottom: 3px;
+}
+
 .header-section-text {
   text-align: center;
   margin-top: 190px;
@@ -73,7 +92,7 @@ header {
 
 .header-button {
   color: white;
-  background-color: #1d809f;
+  background-color: #1a6d87;
   width: 176px;
   height: 66px;
   border-radius: 5px;
@@ -82,4 +101,48 @@ header {
 }
 .header-button:hover {
   background-color: #145b70;
+}
+article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 400px;
+}
+article a {
+  color: #1d809f;
+}
+article h1 {
+  font-size: 30px;
+  margin-bottom: -5px;
+}
+article p {
+  font-size: 18px;
+}
+.article-button {
+  background-color: #212529;
+  color: white;
+  width: 180px;
+  height: 70px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 30px;
+}
+.article-section {
+  height: 550px;
+  background-color: #1d809f;
+  display: flex;
+  flex-direction: column;
+}
+.article-section h1 {
+  text-align: center;
+  color: #ecb807;
+  font-size: 16px;
+  margin-bottom: -30px;
+  margin-top: 120px;
+}
+.article-section h2 {
+  text-align: center;
+  color: white;
+  font-size: 48px;
 }
