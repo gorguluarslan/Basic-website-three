@@ -134,14 +134,14 @@ article p {
   display: flex;
   flex-direction: column;
 }
-.article-section h1 {
+.article-section__text {
   text-align: center;
   color: #ecb807;
   font-size: 16px;
   margin-bottom: -30px;
   margin-top: 120px;
 }
-.article-section h2 {
+.article-section__text h2 {
   text-align: center;
   color: white;
   font-size: 48px;
