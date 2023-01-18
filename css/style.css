@@ -216,7 +216,6 @@ article p {
 .contents {
   margin: 0;
   padding: 0;
-  position: absolute;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -232,4 +231,56 @@ article p {
 }
 .contents h1 {
   font-size: 60px;
+}
+.portfolio-article {
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.portfolio-article h1 {
+  color: #ecb807;
+  font-size: 16px;
+  margin-bottom: -30px;
+  margin-top: 120px;
+}
+.portfolio-article h2 {
+  text-align: center;
+  color: black;
+  font-size: 48px;
+  margin-top: 40px;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.container img {
+  width: 615px;
+  height: 428px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.container img:hover {
+  width: 515px;
+  height: 328px;
+  background-color: #145b70;
+}
+.item-1 {
+  width: 615px;
+  height: 428px;
+}
+.item-2 {
+  width: 615px;
+  height: 428px;
+}
+.item-3 {
+  width: 615px;
+  height: 428px;
+}
+.item-4 {
+  width: 615px;
+  height: 428px;
 }
