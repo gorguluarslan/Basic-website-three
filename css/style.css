@@ -253,34 +253,28 @@ article p {
 .container {
   display: grid;
   grid-template-columns: auto auto;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 90px;
 }
 .container img {
   width: 615px;
   height: 428px;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
+  display: flex;
+  z-index: 1;
 }
 .container img:hover {
   width: 515px;
   height: 328px;
-  background-color: #145b70;
+  opacity: 0.7;
+  background-color: rgba(33, 37, 41, 0.2);
+  position: absolute;
 }
 .item-1 {
-  width: 615px;
-  height: 428px;
 }
 .item-2 {
-  width: 615px;
-  height: 428px;
 }
 .item-3 {
-  width: 615px;
-  height: 428px;
 }
 .item-4 {
-  width: 615px;
-  height: 428px;
 }
