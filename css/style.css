@@ -54,10 +54,10 @@ header {
   opacity: 0.9;
 }
 .header-section {
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
   flex-direction: row-reverse;
-  margin-left: 400px;
+  margin-left: 100px;
   font-size: 20px;
 }
 .header-section-button {
